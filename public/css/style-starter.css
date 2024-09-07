@@ -587,7 +587,7 @@ pre {
   flex: 0 0 25%;
   max-width: 25%; }
 
-.col-4 {
+.d-flex justify-content-center {
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
@@ -1826,23 +1826,21 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #FE79A2;
-  border-color: #FE79A2; }
-  .btn-primary:hover {
+  background-color: #044e00; }
+.btn-primary:hover {
     color: #fff;
-    background-color: #fe5388;
-    border-color: #fe467f; }
-  .btn-primary:focus, .btn-primary.focus {
+    background-color: #0a2305; }
+.btn-primary:focus, .btn-primary.focus {
     color: #fff;
     background-color: #fe5388;
     border-color: #fe467f;
     box-shadow: 0 0 0 0.2rem rgba(221, 108, 144, 0.5); }
-  .btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled, .btn-primary:disabled {
     color: #212529;
     background-color: #FE79A2;
     border-color: #FE79A2; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-  .show > .btn-primary.dropdown-toggle {
+.show > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #fe467f;
     border-color: #fe3a76; }
@@ -1852,8 +1850,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #1545CB;
-  border-color: #1545CB; }
+  background-color: #005103;
+  border-color: #004800; }
   .btn-secondary:hover {
     color: #fff;
     background-color: #1139a8;
@@ -3072,7 +3070,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FE79A2; }
+  background-color: #033700; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -10853,7 +10851,7 @@ ul.rating-star li span.fa {
   background: var(--bg-color); }
 
 .w3l-homeblock3 .top-pic1 {
-  background: url(../img/l1.jpeg) no-repeat 0px 0px;
+  background: url(../img/Logo.jpg) no-repeat 0px 0px;
   background-size: cover;
   padding: 20px;
   border-radius: var(--border-radius);
@@ -10864,7 +10862,7 @@ ul.rating-star li span.fa {
   z-index: 1; }
 
 .w3l-homeblock3 .top-pic2 {
-  background: url(../img/yt1.jpeg) no-repeat 0px 0px;
+  background: url(../img/Lomba.jpeg) no-repeat 0px 0px;
   background-size: cover;
   padding: 20px;
   border-radius: var(--border-radius);
@@ -10875,7 +10873,7 @@ ul.rating-star li span.fa {
   z-index: 1; }
 
 .w3l-homeblock3 .top-pic3 {
-  background: url(../img/yt2.jpeg) no-repeat 0px 0px;
+  background: url(../img/gotong.jpg) no-repeat 0px 0px;
   background-size: cover;
   padding: 20px;
   border-radius: var(--border-radius);

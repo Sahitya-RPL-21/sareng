@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alhusen | Log in</title>
+  <title>Tebu Ireng | Log in</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -22,7 +22,10 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="/" class="h1"><b>Al-</b>Husen</a>
+      <!-- Logo added here -->
+      <img src="{{ asset('img/Logo.jpg') }}" alt="Logo" style="width: 80px; margin-bottom: 10px;">
+      <br>
+      <a href="/" class="h1"><b>Tebu Ireng</b></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Silahkan login</p>
@@ -55,7 +58,7 @@
             </div>
           </div>-->
           <!-- /.col -->
-          <div class="col-4">
+          <div class="d-flex justify-content-center">
             <button type="button" id="btnLogin" onclick="login()" class="btn btn-primary btn-block">Sign In</button>
           </div>
           <!-- /.col -->

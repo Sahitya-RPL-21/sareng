@@ -4,15 +4,9 @@
       <div class="row footer-top-29">
         <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
           <h6 class="footer-title-29">Contact Info </h6>
-          <p>Address : Blok Senin, Maja Utara Kec. Maja Kab. Majalengka 45461.</p>
+          <p>Alamat : Cukir, Kecamatan Diwek, Kabupaten Jombang, Jawa Timur. </p>
           <p class="my-2">Phone : 0882-9224-2947</a></p>
-          <p>Email : <a href="mailto:info@example.com"></a>ponpesalhusen@gmail.com</a></p>
-          <div class="main-social-footer-29 mt-4">
-            <a href="https://www.facebook.com/Ponpes.Alhusen" class="facebook"><span class="fa fa-facebook"></span></a>
-            <a href="https://twitter.com/arip_saga" class="twitter"><span class="fa fa-twitter"></span></a>
-            <a href="https://www.instagram.com/ponpes.alhusen/?hl=id" class="instagram"><span class="fa fa-instagram"></span></a>
-            <a href="https://www.linkedin.com/in/moch-arip-rohidin-656395151/" class="linkedin"><span class="fa fa-linkedin"></span></a>
-          </div>
+          <p>Email : <a href="mailto:info@example.com"></a>ponpestebuireng@gmail.com</a></p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
 

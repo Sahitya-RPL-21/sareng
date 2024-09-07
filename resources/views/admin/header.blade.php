@@ -39,7 +39,6 @@
           <i class="fas fa-user"></i>  
         </a>
         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-        <center>
           <div class="dropdown-item">
             <br>
             <h3 class="dropdown-item-title">
@@ -47,10 +46,9 @@
               {{ Auth::user()->name }}
               @endif
                - Admin
-              <p class="text-sm text-muted">PonPes AL-HUSEN</p>
+              <p class="text-sm text-muted">TebuIreng</p>
             </h3>
           </div>
-        </center>
           <div class="dropdown-item dropdown-footer">
             <!-- <a href="#" class="btn btn-default btn-flat pull-left">Profile</a> -->
             <a href="#" onclick="logout()" class="btn btn-default btn-flat pull-right">Sign out</a>

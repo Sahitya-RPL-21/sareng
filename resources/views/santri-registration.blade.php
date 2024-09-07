@@ -49,7 +49,7 @@
 						</div>
 						<div class="cont-right">
 							<h6>Alamat</h6>
-							<p class="pr-lg-5">Blok Senin Maja Utara Kec. Maja Kab. Majalengka 45461</p>
+							<p class="pr-lg-5">Cukir, Kecamatan Diwek, Kabupaten Jombang, Jawa Timur.</p>
 						</div>
 					</div>
 					<div class="cont-top margin-up">
@@ -67,7 +67,7 @@
 						</div>
 						<div class="cont-right">
 							<h6>Email</h6>
-							<p><a href="mailto:coursing@mail.com" class="mail">ponpesalhusen@gmail.com</a></p>
+							<p><a href="mailto:coursing@mail.com" class="mail">ponpestebuireng@gmail.com</a></p>
 						</div>
 					</div>
 				</div>

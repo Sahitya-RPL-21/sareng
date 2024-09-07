@@ -3,15 +3,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark stroke">
       <h1>
         <a class="navbar-brand" href="index.html">
-            <img src="{{ asset ('img/a.png') }}" style="height:65px;" />
+            <img src="{{ asset ('img/TEBUU.png') }}" style="height:65px;" />
         </a>
         <a class="navbar-brand" href="{{ route('home') }}">
-            AL-HUSEN <span class="logo"></span>
+            TEBUIRENG<span class="logo"></span>
         </a>
       </h1>
 
-        
-         
       <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -35,7 +33,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-
+  
         <!--/search-right-->
         <div class="search-right"> 
           <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
@@ -58,21 +56,5 @@
           <a href="{{ route('admin-login') }}" class="btn login mr-2"><span class="fa fa-user"></span> login</a>
         </div>
       </div>
-      <!-- toggle switch for light and dark theme -->
-      <div class="mobile-position">
-        <nav class="navigation">
-          <div class="theme-switch-wrapper">
-            <label class="theme-switch" for="checkbox">
-              <input type="checkbox" id="checkbox">
-              <div class="mode-container py-1">
-                <i class="gg-sun"></i>
-                <i class="gg-moon"></i>
-              </div>
-            </label>
-          </div>
-        </nav>
-      </div>
-      <!-- //toggle switch for light and dark theme -->
-    </nav>
   </div>
 </header>
