@@ -24,11 +24,13 @@
             <th>Tanggal Lahir</th>
             <th>Handphone</th>
             <th>Email</th>
-            <th>Alamat</th>
+            <th>Alamattt</th>
+
             <th style="width:100px;"></th>
           </tr>
           </thead>
           <tbody>
+            //
           </tbody>
         </table>
       </div>

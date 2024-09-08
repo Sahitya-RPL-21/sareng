@@ -6,7 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\SantriController;
 use App\Http\Controllers\SantriRegistrationController;
 use App\Http\Controllers\WaliSantriController;
-
+use App\Http\Controllers\PengumumanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,7 @@ use App\Http\Controllers\WaliSantriController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/pengumuman', [PengumumanController::class, 'index'])->name('pengumuman');
 //Session Admin
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 Route::get('/admin/login', [AdminController::class, 'login'])->name('admin-login');
@@ -47,3 +48,5 @@ Route::get('/santri/hitung_santri', [SantriController::class, 'hitung'])->name('
 //Registrasi Santri
 Route::get('/santri-registration', [SantriRegistrationController::class, 'index'])->name('santri-registration');
 Route::post('/santri-registration/store', [SantriRegistrationController::class, 'store'])->name('santri-registration-store');
+// Route for printing PDF
+Route::get('/print-pdf/{id}', [SantriRegistrationController::class, 'printPdf'])->name('print-pdf');

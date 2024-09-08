@@ -32,6 +32,9 @@
           <li class="nav-item @@contact__active">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <li class="nav-item @@pengumuman__active">
+        <a class="nav-link" href="{{ route('pengumuman') }}">Pengumuman</a>
+        </li>
         </ul>
   
         <!--/search-right-->
