@@ -197,16 +197,16 @@
             <div class="col-md-6">
                 <div class="top-pic1">
                     <div class="card-body blog-details">
-                        <a href="#blog-single" class="blog-desc">Pondok Pesantren TebuIreng
+                        <a href="https://tebuireng.online/menggali-yang-diwariskan-hadratussyaikh/" class="blog-desc">Menggali yang Diwariskan Hadratussyaikh
                         </a>
                         <div class="author align-items-center">
                             <img src="{{ asset ('img/Logo.jpg') }}" alt="" class="img-fluid rounded-circle" />
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="#author">Tebu Ireng Online</a> </a>
+                                    <a href="#author">Tebuireng Online [Rara Zarary]</a> </a>
                                 </li>
                                 <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> Januari 2024 </span>. <span class="meta-value ml-2"><span
+                                    <span class="meta-value"> 4 Mei 2024 </span>. <span class="meta-value ml-2"><span
                                             class="fa fa-clock-o"></span> 1 min</span>
                                 </li>
                             </ul>
@@ -223,11 +223,11 @@
                             <img src="{{ asset ('img/Logo.jpg') }}" alt="" class="img-fluid rounded-circle" />
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="https://www.youtube.com/channel/UC_96VR7VF6cCHfP4efmwbJg">Tebu Ireng Online</a> 
+                                    <a href="https://tebuireng.online/lomba-kebahasaan-nasional-glora-nasional-2024-pba-unhasy/">Tebuireng Online [Rara Zarary]</a> 
                         </a>
                                 </li>
                                 <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> Maret 2024 </span>. <span class="meta-value ml-2"><span
+                                    <span class="meta-value"> 7 September 2024 </span>. <span class="meta-value ml-2"><span
                                             class="fa fa-clock-o"></span> 1 min</span>
                                 </li>
                             </ul>
@@ -243,10 +243,10 @@
                                 <img src="{{ asset ('img/Logo.jpg') }}" alt="" class="img-fluid rounded-circle" />
                                 <ul class="blog-meta">
                                     <li>
-                                        <a href="https://www.youtube.com/watch?v=3slHSewIuC0">Tebu Ireng Online</a> </a>
+                                        <a href="https://tebuireng.online/pesona-budaya-gotong-royong-di-pedesaan/">Tebuireng Online [Rara Zarary]</a> </a>
                                     </li>
                                     <li class="meta-item blog-lesson">
-                                        <span class="meta-value"> Februari 2024</span>. <span
+                                        <span class="meta-value"> 6 september 2024</span>. <span
                                             class="meta-value ml-2"><span class="fa fa-clock-o"></span> 5 min</span>
                                     </li>
                                 </ul>
@@ -326,8 +326,8 @@
                             <div class="box16">
                                 <a href="#url"><img src="{{ asset ('img/t4.jpg') }}" alt="" class="img-fluid radius-image" /></a>
                                 <div class="box-content">
-                                    <h3 class="title"><a href="#url">Ahmad Fauzani</a></h3>
-                                    <span class="post">Pengurus</a></span>
+                                    <h3 class="title"><a href="#url">mass tebuireng</a></h3>
+                                    <span class="post"></a></span>
                                     <ul class="social">
                                         <li>
                                             <!-- <a href="#" class="facebook"> 
@@ -345,10 +345,10 @@
                         </div>
                         <div class="col-sm-6 mt-lg-4 mt-3">
                             <div class="box16">
-                                <a href="#url"><img src="{{ asset ('img/t3.jpeg') }}" alt="" class="img-fluid radius-image" /></a>
+                                <a href="#url"><img src="{{ asset ('img/TEBUU.png') }}" alt="" class="img-fluid radius-image" /></a>
                                 <div class="box-content">
-                                    <h3 class="title"><a href="#url">Fariz Fadilah Ja'far</a></h3>
-                                    <span class="post">Pengurus</a></span>
+                                    <h3 class="title"><a href="#url">Logo Tebuireng</a></h3>
+                                    <span class="post"></a></span>
                                     <ul class="social">
                                         <li>
                                             <!--<a href="#" class="facebook">
