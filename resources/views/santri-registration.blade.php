@@ -94,11 +94,6 @@
 						<textarea class="form-control" name="alamat" id="w3lMessage" placeholder="alamat"
 							required="">
 						</textarea>
-
-						<div>
-        <label for="bukti_transfer">Upload Bukti Transfer:</label>
-        <input type="file" class="form-control" name="bukti_transfer" id="bukti_transfer" required="">
-    </div>  
 						<button type="button" class="btn btn-primary btn-style mt-4" onclick="save()">Daftar</button>
 					</form>
 				</div>

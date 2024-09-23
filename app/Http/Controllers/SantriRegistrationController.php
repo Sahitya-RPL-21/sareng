@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use Barryvdh\DomPDF\Facade\Pdf;
 use App\Models\Santri;
@@ -38,9 +37,9 @@ class SantriRegistrationController extends Controller
             if ($santri->save()) {
                 $response['status'] = 200;
                 $response['status_desc'] = 'success';
-                $response['data'] = $santri;
+                $response['data'] = $santri; // Contains all saved santri data
+                $response['id'] = $santri->id; // Add the ID to the response explicitly
             }
-
         } catch (\Exception $e) {
             $response['status'] = 400;
             $response['message'] = $e->getMessage();
@@ -53,8 +52,10 @@ class SantriRegistrationController extends Controller
     // Generate and download PDF
     public function printPdf($id)
 {
+   // set_time_limit(100);
+        
     $santri = Santri::findOrFail($id); // Fetch data based on ID
     $pdf = Pdf::loadView('pdf.santri', compact('santri')); // Load the view and pass data
-    return $pdf->download('Pendaftaran-Santri.pdf'); // Provide a meaningful filename
+    return $pdf->download('Pendaftaran-Santri-Tebuireng.pdf'); // Provide a meaningful filename
 }
 }

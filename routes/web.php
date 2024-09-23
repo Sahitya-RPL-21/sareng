@@ -7,6 +7,7 @@ use App\Http\Controllers\SantriController;
 use App\Http\Controllers\SantriRegistrationController;
 use App\Http\Controllers\WaliSantriController;
 use App\Http\Controllers\PengumumanController;
+use App\Http\Controllers\SearchController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -50,3 +51,5 @@ Route::get('/santri-registration', [SantriRegistrationController::class, 'index'
 Route::post('/santri-registration/store', [SantriRegistrationController::class, 'store'])->name('santri-registration-store');
 // Route for printing PDF
 Route::get('/print-pdf/{id}', [SantriRegistrationController::class, 'printPdf'])->name('print-pdf');
+Route::get('/search', [SearchController::class, 'index'])->name('search');
+
