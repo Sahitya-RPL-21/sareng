@@ -32,9 +32,10 @@
           <li class="nav-item @@contact__active">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item @@pengumuman__active">
-        <a class="nav-link" href="{{ route('pengumuman') }}">Pengumuman</a>
-        </li>
+          <li class="nav-item @if(request()->routeIs('santri.pengumuman')) active @endif">
+    <a class="nav-link" href="{{ route('santri.pengumuman') }}">Pengumuman</a>
+</li>
+
         </ul>
   
         <!--/search-right-->
