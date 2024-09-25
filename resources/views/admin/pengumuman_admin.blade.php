@@ -46,6 +46,10 @@
                                 <label for="tanggal">Tanggal</label>
                                 <input type="date" class="form-control" id="tanggal" name="tanggal" value="{{ $pengumuman->tanggal }}" required>
                             </div>
+                            <div class="form-group">
+        <label for="no_wa">No WA</label>
+        <input type="text" class="form-control" id="no_wa" name="no_wa" value="{{ $pengumuman->no_wa }}" required>
+    </div>
 
                             <button type="submit" class="btn btn-primary">Update Pengumuman</button>
                         </form>
@@ -67,40 +71,48 @@
                                 <label for="tanggal">Tanggal</label>
                                 <input type="date" class="form-control" id="tanggal" name="tanggal" required>
                             </div>
-
+                            <div class="form-group">
+        <label for="no_wa">No WA</label>
+        <input type="text" class="form-control" id="no_wa" name="no_wa" required>
+    </div>
+                            
                             <button type="submit" class="btn btn-primary">Tambah Pengumuman</button>
                         </form>
                     @else
                         <!-- Tabel Pengumuman -->
                         <table id="table" class="table table-bordered table-hover">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Link Sheet</th>
-                                    <th>Detail</th>
-                                    <th>Tanggal</th>
-                                    <th>Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($pengumuman as $item)
-                                    <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $item->link_sheet }}</td>
-                                        <td>{{ $item->detail }}</td>
-                                        <td>{{ $item->tanggal }}</td>
-                                        <td>
-                                            <a href="{{ route('admin-pengumuman.edit', $item->id) }}" class="btn btn-warning btn-sm">Edit</a>
-                                            <form action="{{ route('admin-pengumuman.destroy', $item->id) }}" method="POST" style="display:inline-block;">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus pengumuman ini?')">Hapus</button>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Link Sheet</th>
+            <th>Detail</th>
+            <th>Tanggal</th>
+            <th>No WA</th> <!-- New column for WhatsApp number -->
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach($pengumuman as $item)
+            <tr>
+                <td>{{ $loop->iteration }}</td>
+                <td>{{ $item->link_sheet }}</td>
+                <td>{{ $item->detail }}</td>
+                <td>{{ $item->tanggal }}</td>
+                <td>{{ $item->no_wa }}</td> <!-- Display WhatsApp number -->
+                <td>
+    <div class="d-flex">
+        <a href="{{ route('admin-pengumuman.edit', $item->id) }}" class="btn btn-warning btn-sm mr-2">Edit</a>
+        <form action="{{ route('admin-pengumuman.destroy', $item->id) }}" method="POST">
+            @csrf
+            @method('DELETE')
+            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus pengumuman ini?')">Hapus</button>
+        </form>
+    </div>
+</td>
+            </tr>
+        @endforeach
+    </tbody>
+</table>
 
                         <!-- Tambah Pengumuman button -->
                         <div class="text-center mt-4">

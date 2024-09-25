@@ -27,12 +27,14 @@ class PengumumanController extends Controller
             'link_sheet' => 'required|string|max:255',
             'detail' => 'required',
             'tanggal' => 'required|date',
+            'no_wa' => 'required|string|max:15',
         ]);
 
         Pengumuman::create([
             'link_sheet' => $request->link_sheet,
             'detail' => $request->detail,
             'tanggal' => $request->tanggal,
+            'no_wa' => $request->no_wa,
         ]);
 
         return redirect()->route('admin-pengumuman.index')->with('success', 'Pengumuman berhasil ditambahkan!');
@@ -52,6 +54,7 @@ class PengumumanController extends Controller
             'link_sheet' => 'required|string|max:255',
             'detail' => 'required',
             'tanggal' => 'required|date',
+            'no_wa' => 'required|string|max:15',
         ]);
 
         $pengumuman = Pengumuman::findOrFail($id);
@@ -59,6 +62,7 @@ class PengumumanController extends Controller
             'link_sheet' => $request->link_sheet,
             'detail' => $request->detail,
             'tanggal' => $request->tanggal,
+            'no_wa' => $request->no_wa,
         ]);
 
         return redirect()->route('admin-pengumuman.index')->with('success', 'Pengumuman berhasil diupdate!');

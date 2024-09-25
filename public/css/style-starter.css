@@ -3552,12 +3552,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FE79A2;
+  color: #044e00;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #fd2d6d;
+    color: #044e00;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -10620,7 +10620,7 @@ a.login:hover {
   position: absolute;
   top: 0;
   right: 0;
-  background: #ff4f81;
+  background: rgb(4, 78, 0);
   color: #fff;
   font-size: 13px;
   line-height: 1;
@@ -10631,7 +10631,7 @@ a.login:hover {
 
 .w3l-courses .course-price-badge-new:before {
   top: 0;
-  border-top: 19px solid #ff4f81;
+  border-top: 19px solid rgb(4, 78, 0);
   content: '';
   position: absolute;
   left: 0;
@@ -10641,7 +10641,7 @@ a.login:hover {
 
 .w3l-courses .course-price-badge-new:after {
   bottom: 0;
-  border-bottom: 19px solid #ff4f81;
+  border-bottom: 19px solid rgb(4, 78, 0);
   content: '';
   position: absolute;
   left: 0;
@@ -11052,7 +11052,7 @@ ul.rating-star li span.fa {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: var(--primary-color);
+  background: rgb(4, 78, 0);
   padding: 0;
   line-height: 36px;
   border-radius: 35px;

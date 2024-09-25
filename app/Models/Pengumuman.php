@@ -16,6 +16,7 @@ class Pengumuman extends Model
     protected $fillable = [
         'link_sheet',
         'detail',
-        'tanggal'
+        'tanggal',
+        'no_wa'
     ];
 }

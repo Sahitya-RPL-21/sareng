@@ -14,15 +14,17 @@
                     <th>Link Sheet</th>
                     <th>Detail</th>
                     <th>Tanggal</th>
+                    <th>Contact Person</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach($pengumuman as $item)
                     <tr>
                         <td>{{ $loop->iteration }}</td>
-                        <td><a href="{{ $item->link_sheet }}" target="_blank">{{ $item->link_sheet }}</a></td>
+                        <td><a href="https://{{ $item->link_sheet }}" target="_blank">{{ $item->link_sheet }}</a></td>
                         <td>{{ $item->detail }}</td>
                         <td>{{ \Carbon\Carbon::parse($item->tanggal)->format('d F Y') }}</td>
+                        <td>{{ $item->no_wa }}</td>
                     </tr>
                 @endforeach
             </tbody>
