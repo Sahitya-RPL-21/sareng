@@ -24,7 +24,7 @@
             <th>Tanggal Lahir</th>
             <th>Handphone</th>
             <th>Email</th>
-            <th>Alamattt</th>
+            <th>Alamat</th>
 
             <th style="width:100px;"></th>
           </tr>
